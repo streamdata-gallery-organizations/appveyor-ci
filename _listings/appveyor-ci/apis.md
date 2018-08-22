@@ -8,816 +8,8202 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-
 x-kinRank: "7"
 x-alexaRank: "35479"
 tags: AppVeyor CI
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-22"
+modified: "2018-08-22"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/apis.md
 specificationVersion: "0.14"
 apis:
-- name: App Veyor Post Account Encrypt
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Post account encrypt.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//account/encrypt
-  tags: Account,Encrypt
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
-- name: App Veyor Get Buildjobs Jobid Artifacts
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get buildjobs jobid artifacts.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//buildjobs/{jobId}/artifacts
-  tags: Builds,Jobs,,Artifacts
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
-- name: App Veyor Parameters Buildjobs Jobid Artifacts
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters buildjobs jobid artifacts.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//buildjobs/{jobId}/artifacts
-  tags: Builds,Jobs,,Artifacts
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
-- name: App Veyor Get Buildjobs Jobid Artifacts Artifactfilename
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get buildjobs jobid artifacts artifactfilename.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//buildjobs/{jobId}/artifacts/{artifactFileName}
-  tags: Builds,Jobs,,Artifacts,Files
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
-- name: App Veyor Parameters Buildjobs Jobid Artifacts Artifactfilename
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters buildjobs jobid artifacts artifactfilename.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//buildjobs/{jobId}/artifacts/{artifactFileName}
-  tags: Builds,Jobs,,Artifacts,Files
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
-- name: App Veyor Get Buildjobs Jobid Log
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get buildjobs jobid log.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//buildjobs/{jobId}/log
-  tags: Builds,Jobs,,Log
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
-- name: App Veyor Parameters Buildjobs Jobid Log
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters buildjobs jobid log.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//buildjobs/{jobId}/log
-  tags: Builds,Jobs,,Log
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
-- name: App Veyor Post Builds
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Post builds.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//builds
-  tags: Builds
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
-- name: App Veyor Delete Builds Accountname Projectslug Buildversion
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Delete builds accountname projectslug buildversion.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//builds/{accountName}/{projectSlug}/{buildVersion}
-  tags: Builds,AccountName,ProjectSlug,BuildVersion
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
-- name: App Veyor Parameters Builds Accountname Projectslug Buildversion
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters builds accountname projectslug buildversion.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//builds/{accountName}/{projectSlug}/{buildVersion}
-  tags: Builds,AccountName,ProjectSlug,BuildVersion
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
-- name: App Veyor Get Collaborators
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get collaborators.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//collaborators
-  tags: Collaborators
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
-- name: App Veyor Post Collaborators
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Post collaborators.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//collaborators
-  tags: Collaborators
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
-- name: App Veyor Put Collaborators
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Put collaborators.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//collaborators
-  tags: Collaborators
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
-- name: App Veyor Delete Collaborators Userid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Delete collaborators userid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//collaborators/{userId}
-  tags: Collaborators,Users
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
-- name: App Veyor Get Collaborators Userid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get collaborators userid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//collaborators/{userId}
-  tags: Collaborators,Users
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
-- name: App Veyor Parameters Collaborators Userid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters collaborators userid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//collaborators/{userId}
-  tags: Collaborators,Users
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
-- name: App Veyor Post Deployments
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Post deployments.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//deployments
-  tags: Deployments
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
-- name: App Veyor Delete Deployments Stop
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Delete deployments stop.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//deployments/stop
-  tags: Deployments,Stop
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
-- name: App Veyor Get Deployments Deploymentid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get deployments deploymentid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//deployments/{deploymentId}
-  tags: Deployments,DeploymentId
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
-- name: App Veyor Parameters Deployments Deploymentid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters deployments deploymentid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//deployments/{deploymentId}
-  tags: Deployments,DeploymentId
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
-- name: App Veyor Get Environments
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get environments.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//environments
-  tags: Environments
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
-- name: App Veyor Post Environments
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Post environments.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//environments
-  tags: Environments
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
-- name: App Veyor Put Environments
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Put environments.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//environments
-  tags: Environments
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
-- name: App Veyor Delete Environments Deploymentenvironmentid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Delete environments deploymentenvironmentid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//environments/{deploymentEnvironmentId}
-  tags: Environments,DeploymentEnvironmentId
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
-- name: App Veyor Parameters Environments Deploymentenvironmentid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters environments deploymentenvironmentid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//environments/{deploymentEnvironmentId}
-  tags: Environments,DeploymentEnvironmentId
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
-- name: App Veyor Get Environments Deploymentenvironmentid Deployments
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get environments deploymentenvironmentid deployments.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//environments/{deploymentEnvironmentId}/deployments
-  tags: Environments,DeploymentEnvironmentId,Deployments
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
-- name: App Veyor Parameters Environments Deploymentenvironmentid Deployments
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters environments deploymentenvironmentid deployments.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//environments/{deploymentEnvironmentId}/deployments
-  tags: Environments,DeploymentEnvironmentId,Deployments
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
-- name: App Veyor Get Environments Deploymentenvironmentid Settings
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get environments deploymentenvironmentid settings.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//environments/{deploymentEnvironmentId}/settings
-  tags: Environments,DeploymentEnvironmentId,Settings
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
-- name: App Veyor Parameters Environments Deploymentenvironmentid Settings
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters environments deploymentenvironmentid settings.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//environments/{deploymentEnvironmentId}/settings
-  tags: Environments,DeploymentEnvironmentId,Settings
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
-- name: App Veyor Get Projects
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get projects.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects
-  tags: Projects
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
-- name: App Veyor Post Projects
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Post projects.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects
-  tags: Projects
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
-- name: App Veyor Put Projects
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Put projects.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects
-  tags: Projects
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
-- name: App Veyor Get Projects Status Badgerepoprover Repoaccountname Reposlug
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get projects status badgerepoprover repoaccountname reposlug.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/status/{badgeRepoProvider}/{repoAccountName}/{repoSlug}
-  tags: Projects,Status,BadgeRepoProvider,RepoAccountName,RepoSlug
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
-- name: App Veyor Parameters Projects Status Badgerepoprover Repoaccountname Reposlug
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters projects status badgerepoprover repoaccountname reposlug.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/status/{badgeRepoProvider}/{repoAccountName}/{repoSlug}
-  tags: Projects,Status,BadgeRepoProvider,RepoAccountName,RepoSlug
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
-- name: App Veyor Get Projects Status Statusbadgeid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get projects status statusbadgeid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/status/{statusBadgeId}
-  tags: Projects,Status,StatusBadgeId
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
-- name: App Veyor Parameters Projects Status Statusbadgeid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters projects status statusbadgeid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/status/{statusBadgeId}
-  tags: Projects,Status,StatusBadgeId
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
-- name: App Veyor Get Projects Status Statusbadgeid Branch Buildbranch
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get projects status statusbadgeid branch buildbranch.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/status/{statusBadgeId}/branch/{buildBranch}
-  tags: Projects,Status,StatusBadgeId,Branch,BuildBranch
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
-- name: App Veyor Parameters Projects Status Statusbadgeid Branch Buildbranch
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters projects status statusbadgeid branch buildbranch.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/status/{statusBadgeId}/branch/{buildBranch}
-  tags: Projects,Status,StatusBadgeId,Branch,BuildBranch
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
-- name: App Veyor Delete Projects Accountname Projectslug
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Delete projects accountname projectslug.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}
-  tags: Projects,AccountName,ProjectSlug
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
-- name: App Veyor Get Projects Accountname Projectslug
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get projects accountname projectslug.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}
-  tags: Projects,AccountName,ProjectSlug
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
-- name: App Veyor Parameters Projects Accountname Projectslug
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters projects accountname projectslug.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}
-  tags: Projects,AccountName,ProjectSlug
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
-- name: App Veyor Get Projects Accountname Projectslug Artifacts Artifactfilename
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get projects accountname projectslug artifacts artifactfilename.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/artifacts/{artifactFileName}
-  tags: Projects,AccountName,ProjectSlug,Artifacts,Files
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
-- name: App Veyor Parameters Projects Accountname Projectslug Artifacts Artifactfilename
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters projects accountname projectslug artifacts artifactfilename.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/artifacts/{artifactFileName}
-  tags: Projects,AccountName,ProjectSlug,Artifacts,Files
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
-- name: App Veyor Get Projects Accountname Projectslug Branch Buildbranch
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get projects accountname projectslug branch buildbranch.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/branch/{buildBranch}
-  tags: Projects,AccountName,ProjectSlug,Branch,BuildBranch
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
-- name: App Veyor Parameters Projects Accountname Projectslug Branch Buildbranch
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters projects accountname projectslug branch buildbranch.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/branch/{buildBranch}
-  tags: Projects,AccountName,ProjectSlug,Branch,BuildBranch
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
-- name: App Veyor Get Projects Accountname Projectslug Build Buildversion
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get projects accountname projectslug build buildversion.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/build/{buildVersion}
-  tags: Projects,AccountName,ProjectSlug,Build,BuildVersion
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
-- name: App Veyor Parameters Projects Accountname Projectslug Build Buildversion
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters projects accountname projectslug build buildversion.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/build/{buildVersion}
-  tags: Projects,AccountName,ProjectSlug,Build,BuildVersion
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
-- name: App Veyor Delete Projects Accountname Projectslug Buildcache
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Delete projects accountname projectslug buildcache.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/buildcache
-  tags: Projects,AccountName,ProjectSlug,Buildcache
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
-- name: App Veyor Parameters Projects Accountname Projectslug Buildcache
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters projects accountname projectslug buildcache.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/buildcache
-  tags: Projects,AccountName,ProjectSlug,Buildcache
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
-- name: App Veyor Get Projects Accountname Projectslug Deployments
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get projects accountname projectslug deployments.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/deployments
-  tags: Projects,AccountName,ProjectSlug,Deployments
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
-- name: App Veyor Parameters Projects Accountname Projectslug Deployments
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters projects accountname projectslug deployments.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/deployments
-  tags: Projects,AccountName,ProjectSlug,Deployments
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
-- name: App Veyor Get Projects Accountname Projectslug History
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get projects accountname projectslug history.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/history
-  tags: Projects,AccountName,ProjectSlug,History
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
-- name: App Veyor Parameters Projects Accountname Projectslug History
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters projects accountname projectslug history.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/history
-  tags: Projects,AccountName,ProjectSlug,History
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
-- name: App Veyor Get Projects Accountname Projectslug Settings
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get projects accountname projectslug settings.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/settings
-  tags: Projects,AccountName,ProjectSlug,Settings
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
-- name: App Veyor Parameters Projects Accountname Projectslug Settings
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters projects accountname projectslug settings.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/settings
-  tags: Projects,AccountName,ProjectSlug,Settings
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
-- name: App Veyor Parameters Projects Accountname Projectslug Settings Build Number
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters projects accountname projectslug settings build number.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/settings/build-number
-  tags: Projects,AccountName,ProjectSlug,Settings,Build,Number
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
-- name: App Veyor Put Projects Accountname Projectslug Settings Build Number
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Put projects accountname projectslug settings build number.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/settings/build-number
-  tags: Projects,AccountName,ProjectSlug,Settings,Build,Number
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
-- name: App Veyor Get Projects Accountname Projectslug Settings Environment Variables
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get projects accountname projectslug settings environment variables.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/settings/environment-variables
-  tags: Projects,AccountName,ProjectSlug,Settings,Environment,Variables
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
-- name: App Veyor Parameters Projects Accountname Projectslug Settings Environment
-    Variables
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters projects accountname projectslug settings environment variables.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/settings/environment-variables
-  tags: Projects,AccountName,ProjectSlug,Settings,Environment,Variables
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
-- name: App Veyor Put Projects Accountname Projectslug Settings Environment Variables
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Put projects accountname projectslug settings environment variables.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/settings/environment-variables
-  tags: Projects,AccountName,ProjectSlug,Settings,Environment,Variables
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
-- name: App Veyor Get Projects Accountname Projectslug Settings Yaml
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get projects accountname projectslug settings yaml.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/settings/yaml
-  tags: Projects,AccountName,ProjectSlug,Settings,Yaml
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
-- name: App Veyor Parameters Projects Accountname Projectslug Settings Yaml
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters projects accountname projectslug settings yaml.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/settings/yaml
-  tags: Projects,AccountName,ProjectSlug,Settings,Yaml
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
-- name: App Veyor Put Projects Accountname Projectslug Settings Yaml
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Put projects accountname projectslug settings yaml.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/{accountName}/{projectSlug}/settings/yaml
-  tags: Projects,AccountName,ProjectSlug,Settings,Yaml
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
-- name: App Veyor Get Roles
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get roles.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//roles
-  tags: Roles
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-get-openapi.md
-- name: App Veyor Post Roles
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Post roles.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//roles
-  tags: Roles
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-post-openapi.md
-- name: App Veyor Put Roles
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Put roles.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//roles
-  tags: Roles
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-put-openapi.md
-- name: App Veyor Delete Roles Roleid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Delete roles roleid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//roles/{roleId}
-  tags: Roles,RoleId
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-delete-openapi.md
-- name: App Veyor Get Roles Roleid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get roles roleid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//roles/{roleId}
-  tags: Roles,RoleId
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-get-openapi.md
-- name: App Veyor Parameters Roles Roleid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters roles roleid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//roles/{roleId}
-  tags: Roles,RoleId
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-parameters-openapi.md
-- name: App Veyor Get Users
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get users.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//users
-  tags: Users
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-get-openapi.md
-- name: App Veyor Post Users
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Post users.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//users
-  tags: Users
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-post-openapi.md
-- name: App Veyor Put Users
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Put users.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//users
-  tags: Users
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-put-openapi.md
-- name: App Veyor Delete Users Userid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Delete users userid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//users/{userId}
-  tags: Users,Users
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-delete-openapi.md
-- name: App Veyor Get Users Userid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get users userid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//users/{userId}
-  tags: Users,Users
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-delete-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-get-openapi.md
-- name: App Veyor Parameters Users Userid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters users userid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//users/{userId}
-  tags: Users,Users
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-parameters-openapi.md
-- name: App Veyor Get Projects Status Webhookid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get projects status webhookid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/status/{webhookId}
-  tags: Projects,Status,WebhookId
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-parameters-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatuswebhookid-get-openapi.md
-- name: App Veyor Parameters Projects Status Webhookid
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters projects status webhookid.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/status/{webhookId}
-  tags: Projects,Status,WebhookId
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatuswebhookid-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatuswebhookid-parameters-openapi.md
-- name: App Veyor Get Projects Status Webhookid Branch Buildbranch
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Get projects status webhookid branch buildbranch.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/status/{webhookId}/branch/{buildBranch}
-  tags: Projects,Status,WebhookId,Branch,BuildBranch
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatuswebhookid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatuswebhookid-parameters-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatuswebhookidbranchbuildbranch-get-openapi.md
-- name: App Veyor Parameters Projects Status Webhookid Branch Buildbranch
+- name: App Veyor
   x-api-slug: app-veyor
-  description: Parameters projects status webhookid branch buildbranch.
+  description: appveyor-is-a-hosted-continuous-integration-service-which-runs-on-microsoftwindows---the-appveyor-rest-api-provides-a-restful-way-to-interact-with-theappveyor-service---this-includes-managing-projects-builds-deploymentsand-the-teams-that-build-them-additional-help-and-discussion-of-the-appveyor-rest-api-is-available-athttphelp-appveyor-comdiscussionsthis-swagger-definition-is-an-unofficial-description-of-the-appveyorrest-api-maintained-at-httpsgithub-comkevinoidappveyorswaggerplease-report-any-issues-or-suggestions-for-this-swagger-definition-athttpsgithub-comkevinoidappveyorswaggerissuesnew-api-conventionsfields-which-are-missing-from-update-operations-put-requests-aretypically-reset-to-their-default-values---so-although-most-fields-are-nottechnically-required-they-should-usually-be-specified-in-practice-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
   humanURL: http://appveyor.com
-  baseURL: https://ci.appveyor.com//api//projects/status/{webhookId}/branch/{buildBranch}
-  tags: Projects,Status,WebhookId,Branch,BuildBranch
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/accountencrypt-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifacts-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidartifactsartifactfilename-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildjobsjobidlog-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/builds-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/buildsaccountnameprojectslugbuildversion-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaborators-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/collaboratorsuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deployments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/deploymentsdeploymentid-parameters-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environments-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentiddeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/environmentsdeploymentenvironmentidsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projects-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusbadgerepoproviderrepoaccountnamereposlug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatusstatusbadgeidbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslug-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugartifactsartifactfilename-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbranchbuildbranch-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildbuildversion-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugbuildcache-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugdeployments-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslughistory-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettings-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsbuildnumber-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsenvironmentvariables-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsaccountnameprojectslugsettingsyaml-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/roles-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/rolesroleid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/users-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/usersuserid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatuswebhookid-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatuswebhookid-parameters-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatuswebhookidbranchbuildbranch-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/projectsstatuswebhookidbranchbuildbranch-parameters-openapi.md
 - name: App Veyor
@@ -833,6 +8219,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/appveyor-ci/master/_listings/appveyor-ci/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://apis.io.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://appveyor.ci.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/appveyor-systems-inc
 - type: x-documentation
